@@ -18,10 +18,10 @@ const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 const items = document.querySelectorAll('.deadline-format h1');
 const head = document.querySelector('.section-header');
 
-// setting the date for the lunching day
+// setting the date for the launching day
 const lunchingDate = new Date(2024, 11, 31, 12, 30, 0);
 
-// lunching day in milisecond
+// launching day in milisecond
 const lunchingTime = lunchingDate.getTime();
 
 function countdown() {
@@ -53,7 +53,7 @@ function countdown() {
 
   if (t < 0) {
     clearInterval(interval);
-    head.innerHTML = 'We are officially lunching the website';
+    head.innerHTML = 'We are officially launching the website';
     head.style.letterSpacing = '0.1rem';
 
     items.forEach(function (item) {
