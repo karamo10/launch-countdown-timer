@@ -39,7 +39,6 @@ body {
   font-size: 1.2rem;
   letter-spacing: 0.5rem;
   color: hsl(0, 0%, 100%);
-  font-family: sans-serif;
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
@@ -78,13 +77,12 @@ body {
 
 .footer {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-image: url(/assets/images/pattern-hills.svg);
   object-fit: cover;
   background-size: cover;
-  /* height: 20rem; */
-  padding: 5rem 0;
+  padding: 4.5rem 0;
   text-align: center;
   background-repeat: no-repeat;
 }
@@ -106,7 +104,9 @@ body {
 
   .section-header {
     font-size: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    line-height: 1.6;
   }
 
   .deadline-format > div {
@@ -115,12 +115,12 @@ body {
   }
 
   .deadline-format > div > h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: hsl(345, 95%, 68%);
   }
 
   .deadline-format span {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0;
   }
 }

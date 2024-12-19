@@ -19,15 +19,15 @@ const items = document.querySelectorAll('.deadline-format h1');
 const head = document.querySelector('.section-header');
 
 // setting the date for the launching day
-const lunchingDate = new Date(2024, 11, 31, 12, 30, 0);
+const launchingDate = new Date(2024, 11, 31, 12, 30, 0);
 
 // launching day in milisecond
-const lunchingTime = lunchingDate.getTime();
+const launchingTime = launchingDate.getTime();
 
 function countdown() {
   const now = new Date().getTime();
 
-  const t = lunchingTime - now;
+  const t = launchingTime - now;
 
   // values in miliseconds
   const oneDay = 24 * 60 * 60 * 1000;
