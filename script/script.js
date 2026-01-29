@@ -19,7 +19,7 @@ const items = document.querySelectorAll('.deadline-format h1');
 const head = document.querySelector('.section-header');
 
 // setting the date for the launching day
-const launchingDate = new Date(2024, 11, 31, 12, 30, 0);
+const launchingDate = new Date(2026, 1, 18, 0, 0, 0);
 
 // launching day in milisecond
 const launchingTime = launchingDate.getTime();
